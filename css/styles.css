@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(28, 28, 28);
+}
+
+hr {
+    border-top: 0.01rem solid black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i {
+    font-weight: normal;
+}
+
+.page {
+    height: 64.7rem;
+    width: 50rem;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 3.5rem;
+    background-color: white;
+}
+
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 0.8rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: .02rem;
+}
+
+#heading {
+    font-family: Roboto-Medium;
+    font-size: 1.75rem;
+    font-weight: 550;
+    line-height: 25%;
+}
+
+#links {
+    font-family: Roboto;
+    font-size: 0.86rem;
+    line-height: 5%;
+    padding-bottom: 1.5rem;
+}
+
+#title {
+    font-family: Roboto;
+    font-weight: 550;
+    font-size: 1.05rem;
+    text-align: left;
+    line-height: 0%;
+}
+
+#split-title {
+    line-height: 50%;
+    font-size: 0.78rem;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+#skills {
+    font-size: 0.78rem;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+#skills-left {
+    line-height: 50%;
+    font-size: 0.78rem;
+    font-family: Roboto;
+    text-align: left;
+}
+
+#split-text {
+    line-height: 0%;
+    font-size: 0.78rem;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+#text-left {
+    float: left;
+}
+
+#text-right {
+    float: right;
+}
+
+#bullet {
+    font-family: Roboto;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-left: -0.7rem;
+    line-height: 50%;
+    letter-spacing: 0.005rem;
+}
