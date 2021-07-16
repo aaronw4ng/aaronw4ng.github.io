@@ -4,6 +4,7 @@ body {
 
 hr {
     border-top: 0.01rem solid black;
+    padding-top: 0%;
 }
 
 a {
@@ -17,6 +18,11 @@ a:hover {
 
 i {
     font-weight: normal;
+}
+
+.headerline {
+    margin-top: -0.3rem;
+    margin-bottom: -0.75rem;
 }
 
 .page {
@@ -38,21 +44,30 @@ i {
     letter-spacing: .02rem;
 }
 
-#heading {
+.heading {
     font-family: Roboto-Medium;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 550;
     line-height: 25%;
 }
 
-#links {
+.links {
     font-family: Roboto;
     font-size: 0.86rem;
     line-height: 5%;
     padding-bottom: 1.5rem;
 }
 
-#title {
+.title {
+    font-family: Roboto;
+    font-weight: 550;
+    font-size: 1.05rem;
+    text-align: left;
+    line-height: 0%;
+    margin-top: 2rem;
+}
+
+.title-top {
     font-family: Roboto;
     font-weight: 550;
     font-size: 1.05rem;
@@ -60,42 +75,52 @@ i {
     line-height: 0%;
 }
 
-#split-title {
+
+.split-title {
     line-height: 50%;
     font-size: 0.78rem;
     font-family: Roboto;
     font-weight: 600;
+    margin-top: 1.2rem;
 }
 
-#skills {
+.skills {
     font-size: 0.78rem;
     font-family: Roboto;
     font-weight: 600;
 }
 
-#skills-left {
+.skills-left {
     line-height: 50%;
     font-size: 0.78rem;
     font-family: Roboto;
     text-align: left;
 }
 
-#split-text {
+.skills-left-top {
+    line-height: 50%;
+    font-size: 0.78rem;
+    font-family: Roboto;
+    text-align: left;
+    margin-top: 1.2rem;
+}
+
+.split-text {
     line-height: 0%;
     font-size: 0.78rem;
     font-family: Roboto;
     font-style: italic;
 }
 
-#text-left {
+.text-left {
     float: left;
 }
 
-#text-right {
+.text-right {
     float: right;
 }
 
-#bullet {
+.bullet {
     font-family: Roboto;
     text-align: left;
     font-size: 0.8rem;
